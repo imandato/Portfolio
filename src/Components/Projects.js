@@ -1,7 +1,7 @@
 import "./css/projects.css"
 import Card from 'react-bootstrap/Card';
 import photo from './assets/photo.png'
-import data from './assets/data.json';
+import projects from './assets/projects.js';
 import smallgit from './assets/smallgit.png';
 
 function Projects(){
@@ -14,12 +14,11 @@ function Projects(){
         <div id='projects'>
             <header>My Projects</header>
             <div className='item-container'>
-
-            {data.projects.map((project) => (
+            {projects.map((project) => (
 
                 <Card className='project-card'>
                 <Card.Body className="card">
-                    <Card.Img className="project-image" src={`${photo}`} alt='test' />    
+                    <Card.Img className="project-image" src={`${project.image}`} alt='test' />    
                     <Card.Text className="project-title" style={{ margin:0, fontWeight: "bold"}} variant="body2" color="text.secondary">{`${project.title}`}</Card.Text>
                     <div className="tags-container">
                     <Card.Text className="project-type project-type1" >{`${project.tags[0]}`}</Card.Text>
