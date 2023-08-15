@@ -1,0 +1,41 @@
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* #name{
+    font-family: 'Josefin Sans', sans-serif;;
+    padding-left: 1.5rem;
+    font-size: 2rem;
+}
+
+#logo{
+    height: 4rem;
+} */
+
+/* #navbar_links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} */
+
+ul{
+    list-style: none;
+    display: flex;
+    align-content: row;
+}
+
+#li{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+}
+
+.linkText{
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--color-accent);
+}

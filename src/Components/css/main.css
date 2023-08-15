@@ -1,0 +1,67 @@
+#propic{
+    border-radius: 100%;
+    height: 40vh;
+    width: 40vh;
+    z-index: 1;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#main{
+    background-image: url("../assets/blob.svg"), url("../assets/blob2.svg"), url("../assets/blob3.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 150vh, 100vh, 80vh;
+    /* background-position: center, bottom left; */
+    background-position-x: center, left, right;
+    background-position-y: center, bottom, bottom;
+    height: 80vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* #blob{
+    z-index: 0;
+} */
+
+/* .child{
+    position: absolute;
+    /* top:0; */
+
+
+/* .splash{
+    width: 500px;
+    height: 500px;
+    background: 
+        repeating-conic-gradient(#00f 0 3%, #0000 0 11%),
+        repeating-conic-gradient(#0000 0 5%, #00f 0 7%) 50% 50% / 60% 60%,
+        repeating-conic-gradient(#0000 0 7%, #00f 0 9%) 50% 50% / 70% 70%,        
+        repeating-conic-gradient(#0000 0 11%, #00f 0 13%) 50% 50% / 80% 80%,    
+        radial-gradient(#00f 22%, #0000 0),    
+        #fff;
+        box-shadow: 0 0 0 50px #fff;
+        background-repeat: no-repeat;
+        filter:blur(20px) contrast(50)
+
+}
+
+.splash2{
+    width: 500px;
+    height: 500px;
+    background: 
+        repeating-conic-gradient(yellow);
+        repeating-conic-gradient(#0000 0 5%, #00f 0 7%) 50% 50% / 60% 60%,
+        repeating-conic-gradient(#0000 0 7%, #00f 0 9%) 50% 50% / 70% 70%,        
+        repeating-conic-gradient(#0000 0 11%, #00f 0 13%) 50% 50% / 80% 80%,    
+        radial-gradient(#00f 22%, #0000 0),    
+        box-shadow: 0 0 0 50px #fff;
+        background-repeat: no-repeat;
+        filter:blur(20px) contrast(50) 
+} */
