@@ -43,7 +43,12 @@ ul{
 @media only screen and (max-width: 600px) {
     #navbar{
         margin-top: 2vh;
-        /* margin-right: 1vh; */
+        margin-right: 2vh;
         /* align-content: center; */
+    }
+
+    #li{
+        padding-left: .75rem;
+        padding-right: .75rem;
     }
   }
