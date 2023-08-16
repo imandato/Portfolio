@@ -1,8 +1,8 @@
 import React from 'react'
 import "./css/footer.css"
-import Mail from './assets/Mail.png'
-import LinkedIn from './assets/LinkedIn.png'
-import Github from './assets/Github.png'
+import Mail from '../assets/Mail.png'
+import LinkedIn from '../assets/LinkedIn.png'
+import Github from '../assets/Github.png'
 
 
 

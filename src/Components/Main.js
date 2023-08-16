@@ -1,5 +1,5 @@
 import React from 'react'
-import profilephoto from './assets/profilephoto.jpeg';
+import profilephoto from '../assets/profilephoto.jpeg';
 import "./css/main.css"
 import NavBar from './NavBar';
 import About from './About';

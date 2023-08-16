@@ -11,7 +11,7 @@
 }
 
 #main{
-    background-image: url("../assets/blob.svg"), url("../assets/blob2.svg"), url("../assets/blob3.svg");
+    background-image: url("../../assets/blob.svg"), url("../../assets/blob2.svg"), url("../../assets/blob3.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 150vh, 100vh, 80vh;
     /* background-position: center, bottom left; */
@@ -31,7 +31,7 @@
         width: 20vh;
     }
     #main{
-        background-image: url("../assets/blob.svg"), url("../assets/blob2.svg"), url("../assets/blob3.svg");
+        background-image: url("../../assets/blob.svg"), url("../../assets/blob2.svg"), url("../../assets/blob3.svg");
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-size: 65vh, 35vh, 30vh;
     /* background-position: center, bottom left; */

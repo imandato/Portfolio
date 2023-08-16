@@ -1,6 +1,6 @@
 import React from 'react'
 import "./css/about.css"
-import data from './assets/data.json';
+import data from '../assets/data.json';
 
 
 function About(){

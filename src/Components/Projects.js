@@ -1,8 +1,7 @@
 import "./css/projects.css"
 import Card from 'react-bootstrap/Card';
-import photo from './assets/photo.png'
-import projects from './assets/projects.js';
-import smallgit from './assets/smallgit.png';
+import projects from '../assets/projects.js';
+import smallgit from '../assets/smallgit.png';
 
 function Projects(){
 
