@@ -33,10 +33,10 @@
     #main{
         background-image: url("../assets/blob.svg"), url("../assets/blob2.svg"), url("../assets/blob3.svg");
         background-repeat: no-repeat, no-repeat, no-repeat;
-        background-size: 70vh, 40vh, 35vh;
+        background-size: 65vh, 35vh, 30vh;
     /* background-position: center, bottom left; */
         background-position-x: center, left, right;
         background-position-y: center, bottom, bottom;
-        height: 65vh;
+        height: 70vh;
     }
   }
